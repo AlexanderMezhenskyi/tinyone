@@ -100,3 +100,59 @@ body, html {
 .navbar-default .navbar-nav > li > a {
   color: $primaryColor;
 }
+
+
+
+.ma-slider {
+  padding: 194px;
+}
+
+
+
+
+.ma-features {
+  padding: 93px 0 10px;
+  margin-left: -12px;
+  &__title {
+    color: $primaryColor;
+    font-family: $boldFontFamily;
+    font-size: 32px;
+    font-weight: 700;
+    text-align: center;
+    margin-bottom: 16px;
+  }
+  &__description {
+    color: #313841;
+    font-family: $regularFontFamily;
+    font-size: 20px;
+    font-weight: 400;
+    text-align: center;
+    margin-bottom: 88px;
+    line-height: 21px;
+  }
+  &__row {
+    margin-bottom: 72px;
+  }
+  &__icon {
+    color: $primaryColor;
+    font-size: 53px;
+    font-weight: 400;
+  }
+  &__subtitle {
+    color: $primaryColor;
+    font-family: $regularFontFamily;
+    font-size: 22px;
+    font-weight: 400;
+    margin-top: 2px;
+    &--large {
+      text-transform: uppercase;
+    }
+  }
+  &__subtitle-text {
+    color: #898989;
+    font-family: $regularFontFamily;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 20px;
+  }
+}
