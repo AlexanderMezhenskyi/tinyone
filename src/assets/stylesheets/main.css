@@ -393,7 +393,7 @@ body, html {
     width: 967px; } }
 
 .ma-header {
-  background: yellow;
+  background: #fcdb00;
   padding-top: 47px; }
 
 .navbar {
@@ -430,7 +430,74 @@ body, html {
   color: #010101; }
 
 .ma-slider {
-  padding: 194px; }
+  padding: 24px 0 98px;
+  background: #fcdb00; }
+
+.ma-carousel {
+  padding: 10px 0 10px; }
+
+.ma-carousel-text {
+  margin-top: 48px; }
+  .ma-carousel-text__title {
+    color: #010101;
+    font-family: "PTSansBold", sans-serif;
+    font-size: 32px;
+    font-weight: 700;
+    margin-bottom: 22px; }
+  .ma-carousel-text__subtitle {
+    color: #313841;
+    font-family: "PTSansRegular", sans-serif;
+    font-size: 20px;
+    font-weight: 400;
+    margin-bottom: 18px;
+    line-height: 22px; }
+  .ma-carousel-text__description {
+    color: #555555;
+    font-family: "PTSansRegular", sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    margin-bottom: 40px;
+    line-height: 20px; }
+  .ma-carousel-text__icon {
+    color: #010101;
+    font-size: 42px;
+    font-weight: 400; }
+    .ma-carousel-text__icon--center {
+      margin: 0 33px; }
+
+.ma-carousel-ipad__base {
+  padding: 44px 14px 43px;
+  background: #ffffff;
+  border-radius: 24px;
+  width: 85%;
+  margin-left: 11px; }
+
+.ma-carousel-ipad__screen {
+  padding: 100px 0 100px;
+  background: #000000;
+  display: block;
+  text-align: center; }
+
+.ma-carousel-ipad__title {
+  display: inline-block;
+  color: #fcdb00;
+  font-family: "PTSansBold", sans-serif;
+  font-size: 30px;
+  font-weight: 700;
+  margin: 55px 0 94px; }
+
+.ma-carousel-indicators {
+  bottom: -62px; }
+
+.carousel-indicators li {
+  width: 13px;
+  height: 13px;
+  background-color: rgba(255, 255, 255, 0.5); }
+
+.carousel-indicators .active {
+  width: 13px;
+  height: 13px;
+  margin: 0; }
 
 .ma-features {
   padding: 93px 0 81px;
