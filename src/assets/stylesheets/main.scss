@@ -1,0 +1,102 @@
+@import "_normalize.scss";
+@import "_variables.scss";
+
+@font-face {
+  font-family: "PTSansRegular";
+  src: url("../fonts/PTSans/PTSansRegular/PTSansRegular.eot");
+  src: url("../fonts/PTSans/PTSansRegular/PTSansRegular.eot?#iefix") format("embedded-opentype"),
+  url("../fonts/PTSans/PTSansRegular/PTSansRegular.woff") format("woff"),
+  url("../fonts/PTSans/PTSansRegular/PTSansRegular.ttf") format("truetype");
+  font-style: normal;
+  font-weight: normal;
+}
+
+@font-face {
+  font-family: "PTSansBold";
+  src: url("../fonts/PTSans/PTSansBold/PTSansBold.eot");
+  src: url("../fonts/PTSans/PTSansBold/PTSansBold.eot?#iefix") format("embedded-opentype"),
+  url("../fonts/PTSans/PTSansBold/PTSansBold.woff") format("woff"),
+  url("../fonts/PTSans/PTSansBold/PTSansBold.ttf") format("truetype");
+  font-style: normal;
+  font-weight: normal;
+}
+
+@font-face {
+  font-family: "HelveticaBold";
+  src: url("../fonts/Helvetica/HelveticaBold/HelveticaBold.eot");
+  src: url("../fonts/Helvetica/HelveticaBold/HelveticaBold.eot?#iefix") format("embedded-opentype"),
+  url("../fonts/Helvetica/HelveticaBold/HelveticaBold.woff") format("woff"),
+  url("../fonts/Helvetica/HelveticaBold/HelveticaBold.ttf") format("truetype");
+  font-style: normal;
+  font-weight: normal;
+}
+
+*,
+*:after,
+*:before {
+  box-sizing: border-box;
+  transition: all 0.4s ease-in;
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  height: 100%;
+}
+
+body, html {
+  min-height: 100%;
+}
+
+@media (min-width: 1200px) {
+  .container {
+    width: 967px
+  }
+}
+
+.ma-header {
+  background: yellow;
+  padding-top: 47px;
+}
+
+.navbar {
+  border: none;
+  background: none;
+  &__link {
+    display: block;
+    color: $primaryColor;
+    font-family: $boldFontFamily;
+    font-size: 22px;
+    font-weight: 700;
+    text-decoration: none;
+    &--font {
+      font-family: "HelveticaBold", sans-serif;
+    }
+  }
+  &__item {
+    margin-top: 13px;
+    &:nth-child(2) {
+      margin-left: 43px;
+      margin-right: 42px;
+    }
+  }
+}
+
+.navbar-brand {
+  &__logo {
+    float: left;
+  }
+  &__title {
+    float: left;
+    margin-top: 1px;
+    color: $primaryColor;
+    font-family: $boldFontFamily;
+    font-size: 30px;
+    font-weight: 700;
+    margin-left: 11px;
+  }
+}
+
+.navbar-default .navbar-nav > li > a {
+  color: $primaryColor;
+}
