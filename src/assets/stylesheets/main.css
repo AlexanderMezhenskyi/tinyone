@@ -433,7 +433,7 @@ body, html {
   padding: 194px; }
 
 .ma-features {
-  padding: 93px 0 10px;
+  padding: 93px 0 81px;
   margin-left: -12px; }
   .ma-features__title {
     color: #010101;
@@ -470,3 +470,57 @@ body, html {
     font-size: 16px;
     font-weight: 400;
     line-height: 20px; }
+
+.ma-subscribe {
+  padding: 73px 0 96px;
+  background: #010101; }
+  .ma-subscribe__title {
+    color: #fcdb00;
+    font-family: "PTSansBold", sans-serif;
+    font-size: 32px;
+    font-weight: 700;
+    margin-bottom: 10px;
+    text-align: center; }
+  .ma-subscribe__description {
+    color: #898989;
+    font-family: "PTSansRegular", sans-serif;
+    font-size: 20px;
+    font-weight: 400;
+    margin-bottom: 34px;
+    text-align: center; }
+
+.ma-form {
+  margin-bottom: 72px; }
+  .ma-form__input {
+    width: 105%;
+    padding: 18px 0 16px 24px;
+    background: #ffffff;
+    border: none;
+    border-radius: 5px; }
+  .ma-form__btn {
+    margin-left: 33px;
+    padding: 13px 34px 14px 37px;
+    border-radius: 5px;
+    border: 2px solid #010101;
+    background-color: #fcdb00;
+    color: #010101;
+    font-family: "PTSansBold", sans-serif;
+    font-size: 16px;
+    font-weight: 700;
+    text-transform: uppercase; }
+
+input::-webkit-input-placeholder {
+  color: #898989;
+  font-family: "PTSansRegular", sans-serif;
+  font-size: 16px;
+  font-weight: 400; }
+
+.ma-social-icon {
+  color: #fcdb00;
+  font-size: 42px;
+  font-weight: 400;
+  margin: 0 14px; }
+  .ma-social-icon:first-child {
+    margin-left: 0; }
+  .ma-social-icon:last-child {
+    margin-right: 0; }
