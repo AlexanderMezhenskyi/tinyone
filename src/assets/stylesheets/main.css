@@ -524,3 +524,23 @@ input::-webkit-input-placeholder {
     margin-left: 0; }
   .ma-social-icon:last-child {
     margin-right: 0; }
+
+.ma-footer {
+  padding: 30px 0 117px;
+  background: #010101;
+  color: #ffffff;
+  font-family: "PTSansRegular", sans-serif;
+  font-size: 16px;
+  font-weight: 400; }
+  .ma-footer__links {
+    list-style-type: none;
+    margin-left: -10px; }
+  .ma-footer__link {
+    text-decoration: none;
+    color: #ffffff; }
+    .ma-footer__link:hover {
+      text-decoration: none;
+      color: #ffffff;
+      border-bottom: 1px solid #ffffff; }
+  .ma-footer__address {
+    margin-bottom: 0; }
