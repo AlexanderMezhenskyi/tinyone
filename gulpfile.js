@@ -8,7 +8,6 @@ const sass = require('gulp-sass');
 const stylesheetsSources = './src/assets/stylesheets/**/*.scss';
 const rootSources = ['./src/*.html', './src/*.png'];
 const imagesSources = './src/assets/img/**/*';
-const jsSources = './src/assets/scripts/**/*';
 const fontsSources = './src/assets/fonts/**/*';
 const libSources = ['./node_modules/jquery/dist/jquery.min.js',
 					'./node_modules/bootstrap/dist/**/*'];
@@ -23,7 +22,6 @@ const sassOptions = {
 let publishApplication = (destinationDir) => {
 	publishRootFiles(destinationDir);
 	publishImages(destinationDir);
-	publishJS(destinationDir);
 	publishFonts(destinationDir);
 	publishLib(destinationDir);
 	publishCssAndAddBrowserPrefixes(destinationDir);
@@ -36,10 +34,6 @@ let publishRootFiles = (destinationDir) => {
 
 let publishImages = (destinationDir) => {
 	gulp.src(imagesSources).pipe(gulp.dest(destinationDir +'assets/img'))
-};
-
-let publishJS = (destinationDir) => {
-	gulp.src(jsSources).pipe(gulp.dest(destinationDir +'assets/scripts'))
 };
 
 
