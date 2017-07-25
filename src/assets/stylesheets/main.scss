@@ -35,7 +35,7 @@
 *:after,
 *:before {
   box-sizing: border-box;
-  transition: all 0.4s ease-in;
+  transition: all 0.3s ease-in;
   margin: 0;
   padding: 0;
 }
@@ -69,6 +69,10 @@ body, html {
     font-size: 22px;
     font-weight: 700;
     text-decoration: none;
+    border-bottom: 1px solid transparent;
+    &:hover {
+      border-bottom: 1px solid $primaryColor;
+    }
     &--font {
       font-family: "HelveticaBold", sans-serif;
     }
@@ -85,6 +89,10 @@ body, html {
 .navbar-brand {
   &__logo {
     float: left;
+    border-radius: 50%;
+    &:hover {
+      background: #5c5c5c;
+    }
   }
   &__title {
     float: left;
@@ -141,6 +149,9 @@ body, html {
     color: #010101;
     font-size: 42px;
     font-weight: 400;
+    &:hover {
+      transform: scaleY(1.1);
+    }
     &--center {
       margin: 0 33px;
     }
@@ -154,12 +165,18 @@ body, html {
     border-radius: 24px;
     width: 85%;
     margin-left: 11px;
+    &:hover {
+      background: #2a0438;
+    }
   }
   &__screen {
     padding: 100px 0 100px;
     background: #000000;
     display: block;
     text-align: center;
+    &:hover {
+      background: #032a04;
+    }
   }
   &__title {
     display: inline-block;
@@ -168,6 +185,12 @@ body, html {
     font-size: 30px;
     font-weight: 700;
     margin: 55px 0 94px;
+  }
+  &__img {
+    border-radius: 50%;
+    &:hover {
+      background: gray;
+    }
   }
 }
 
@@ -237,6 +260,9 @@ body, html {
 .ma-subscribe {
   padding: 73px 0 96px;
   background: $primaryColor;
+  &:hover {
+    background: #17191b;
+  }
   &__title {
     color: #fcdb00;
     font-family: $boldFontFamily;
@@ -268,13 +294,16 @@ body, html {
     margin-left: 33px;
     padding: 13px 34px 14px 37px;
     border-radius: 5px;
-    border: 2px solid #010101;
+    border: none;
     background-color: #fcdb00;
     color: #010101;
     font-family: $boldFontFamily;
     font-size: 16px;
     font-weight: 700;
     text-transform: uppercase;
+    &:hover {
+      box-shadow: 0px 0px 2px 2px rgba(255,255,255,1);
+    }
   }
 }
 
@@ -290,6 +319,9 @@ input::-webkit-input-placeholder {
   font-size: 42px;
   font-weight: 400;
   margin: 0 14px;
+  &:hover {
+    transform: scale(1.1);
+  }
   &:first-child {
     margin-left: 0;
   }
@@ -298,6 +330,7 @@ input::-webkit-input-placeholder {
   }
 }
 
+
 .ma-footer {
   padding: 30px 0 117px;
   background: $primaryColor;
@@ -305,6 +338,9 @@ input::-webkit-input-placeholder {
   font-family: $regularFontFamily;
   font-size: 16px;
   font-weight: 400;
+  &:hover {
+    background: #17191b;
+  }
   &__links {
     list-style-type: none;
     margin-left: -10px;
