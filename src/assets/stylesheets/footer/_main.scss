@@ -1,0 +1,27 @@
+.ma-footer {
+  padding: 30px 0 117px;
+  background: $primaryColor;
+  color: #ffffff;
+  font-family: $regularFontFamily;
+  font-size: 16px;
+  font-weight: 400;
+  &:hover {
+    background: #17191b;
+  }
+  &__links {
+    list-style-type: none;
+    margin-left: -10px;
+  }
+  &__link {
+    text-decoration: none;
+    color: #ffffff;
+    &:hover {
+      text-decoration: none;
+      color: #ffffff;
+      border-bottom: 1px solid #ffffff;
+    }
+  }
+  &__address {
+    margin-bottom: 0;
+  }
+}

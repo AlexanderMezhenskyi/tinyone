@@ -1,0 +1,54 @@
+.ma-header {
+  background: #fcdb00;
+  padding-top: 47px;
+}
+
+.navbar {
+  border: none;
+  background: none;
+  &__link {
+    display: block;
+    color: $primaryColor;
+    font-family: $boldFontFamily;
+    font-size: 22px;
+    font-weight: 700;
+    text-decoration: none;
+    border-bottom: 1px solid transparent;
+    &:hover {
+      border-bottom: 1px solid $primaryColor;
+    }
+    &--font {
+      font-family: "HelveticaBold", sans-serif;
+    }
+  }
+  &__item {
+    margin-top: 13px;
+    &:nth-child(2) {
+      margin-left: 43px;
+      margin-right: 42px;
+    }
+  }
+}
+
+.navbar-brand {
+  &__logo {
+    float: left;
+    border-radius: 50%;
+    &:hover {
+      background: #5c5c5c;
+    }
+  }
+  &__title {
+    float: left;
+    margin-top: 1px;
+    color: $primaryColor;
+    font-family: $boldFontFamily;
+    font-size: 30px;
+    font-weight: 700;
+    margin-left: 11px;
+  }
+}
+
+.navbar-default .navbar-nav > li > a {
+  color: $primaryColor;
+}

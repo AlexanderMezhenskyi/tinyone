@@ -1,0 +1,72 @@
+.ma-subscribe {
+  padding: 73px 0 96px;
+  background: $primaryColor;
+  &:hover {
+    background: #17191b;
+  }
+  &__title {
+    color: #fcdb00;
+    font-family: $boldFontFamily;
+    font-size: 32px;
+    font-weight: 700;
+    margin-bottom: 10px;
+    text-align: center;
+  }
+  &__description {
+    color: #898989;
+    font-family: $regularFontFamily;
+    font-size: 20px;
+    font-weight: 400;
+    margin-bottom: 34px;
+    text-align: center;
+  }
+}
+
+.ma-form {
+  margin-bottom: 72px;
+  &__input {
+    width: 105%;
+    padding: 18px 0 16px 24px;
+    background: #ffffff;
+    border: none;
+    border-radius: 5px;
+  }
+  &__btn {
+    margin-left: 33px;
+    padding: 13px 34px 14px 37px;
+    border-radius: 5px;
+    border: none;
+    background-color: #fcdb00;
+    color: #010101;
+    font-family: $boldFontFamily;
+    font-size: 16px;
+    font-weight: 700;
+    text-transform: uppercase;
+    &:hover {
+      box-shadow: 0px 0px 2px 2px rgba(255,255,255,1);
+    }
+  }
+}
+
+input::-webkit-input-placeholder {
+  color: #898989;
+  font-family: $regularFontFamily;
+  font-size: 16px;
+  font-weight: 400;
+}
+
+.ma-social-icon {
+  color: #fcdb00;
+  font-size: 42px;
+  font-weight: 400;
+  margin: 0 14px;
+  &:hover {
+    transform: scale(1.1);
+  }
+  &:first-child {
+    margin-left: 0;
+  }
+  &:last-child {
+    margin-right: 0;
+  }
+}
